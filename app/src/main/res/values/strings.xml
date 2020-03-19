@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GREENapp</string>
+
+    <string-array name="Disease_names">
+        <item>GRAY LEAF SPOT</item>
+        <item>NORTHERN LEAF BLIGHT</item>
+        <item>COMMON RUST</item>
+        <item>GOSS WILT</item>
+        <item>EYESPOT</item>
+        <item>SOUTHERN RUST</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>THIS IS RANDOM DESCRIPTIONdnskjvbhf,bsdbskdjvslvnsalkvbnklsdnsdivsdouvbjvbsdjvsd,vmsdvsviodhuusduhohdissdjnpoiugoghdshsdubggufygfuhhdsbjhsbhyufhjdbsdiyfbsuybbfuyyfggfyrgfweyfgwegfyubfuyefuygfwegfuy</item>
+        <item>THIS IS RANDOM DESCRIPTION</item>
+        <item>THIS IS RANDOM DESCRIPTION</item>
+        <item>THIS IS RANDOM DESCRIPTION</item>
+        <item>THIS IS RANDOM DESCRIPTION</item>
+        <item>THIS IS RANDOM DESCRIPTION</item>
+    </string-array>
+
+</resources>
