@@ -3,7 +3,7 @@
 
     <string-array name="Disease_names">
         <item>GRAY LEAF SPOT</item>
-        <item>NORTHERN LEAF BLIGHT</item>
+        <item>LEAF BLIGHT</item>
         <item>COMMON RUST</item>
         <item>GOSS WILT</item>
         <item>EYESPOT</item>
@@ -11,12 +11,30 @@
     </string-array>
 
     <string-array name="Description">
-        <item>THIS IS RANDOM DESCRIPTIONdnskjvbhf,bsdbskdjvslvnsalkvbnklsdnsdivsdouvbjvbsdjvsd,vmsdvsviodhuusduhohdissdjnpoiugoghdshsdubggufygfuhhdsbjhsbhyufhjdbsdiyfbsuybbfuyyfggfyrgfweyfgwegfyubfuyefuygfwegfuy</item>
-        <item>THIS IS RANDOM DESCRIPTION</item>
-        <item>THIS IS RANDOM DESCRIPTION</item>
-        <item>THIS IS RANDOM DESCRIPTION</item>
-        <item>THIS IS RANDOM DESCRIPTION</item>
-        <item>THIS IS RANDOM DESCRIPTION</item>
+        <item>SYMPTOMS – Gray to tan lesions that grow between leaf veins giving them a narrow, rectangular appearance. Lesions eventually spread and coalesce to cover most the leaf. Hybrids that are more tolerant to gray leaf spot (GLS) will get small lesions initially, but the lesions won’t spread. Symptoms first appear near tassel emergence in the middle to lower canopy and move upward.
+              FAVOURABLE ENVIRONMENT – Gray leaf spot overwinters on corn residue and is spread by splashing water and wind. It thrives in warm environments with high humidity and overcast skies.
+              MANAGEMENT –A timely foliar fungicide application will control GLS. Gray leaf spot does not typically reach levels causing economic damage north of Highway 20 in Illinois and Iowa.   </item>
+
+        <item>SYMPTOMS  – Long elliptical lesions with a gray to tan color. Symptoms appear from V8 through kernel dough stage. Lesions can appear anywhere in the canopy and will quickly spread throughout the canopy in favorable conditions. In humid conditions, small black spores often develop on lesions. Lesions eventually combine and will destroy entire leaves. Premature death can occur in worse case scenarios.
+              FAVOURABLE ENVIRONMENT – Northern leaf blight overwinters on corn residue and spreads by splashing water and wind. It’s more abundant in years with moderate temperatures (64° to 81°F), high humidity, and frequent rainfall.
+              MANAGEMENT – Northern leaf blight can be controlled with a timely foliar fungicide application. If established pre-tassel, multiple applications may be necessary. </item>
+
+        <item>SYMPTOMS – Common rust infects both upper and lower leaf surfaces. Rust pustules are oval to rectangular in shape and are brick red in color. Leaf tissue surrounding the pustules will turn yellow and eventually die. Dark red powdery spores will erupt out of the pustules. Over time these spores darken and will create a dark cloud during harvest often turning machine surfaces black.
+              FAVOURABLE ENVIRONMENT – High humidity, night temperatures of 65° to 70°F and daytime temperatures less than 80°F favor development and spread. Common rust does not overwinter in the Midwest, but arrives from spores that are carried on storms originating in the southern United States.
+              MANAGEMENT – Foliar fungicides do provide control of common rust.  </item>
+
+        <item>SYMPTOMS – Goss’ wilt is different than most corn diseases in that it’s a bacterial disease. It has long irregular shaped lesions with wavy margins. Goss’ wilt can appear anywhere in the canopy as water soaked dark green lesions that eventually expand and turn brown. Lesions often contain small black structures than can’t be removed when rubbed. Infected leaves will have a glossy appearance due to oozing of exudate from bacteria.
+              FAVOURABLE ENVIRONMENT – Goss’ wilt overwinters on corn residue and is most common in areas that have experienced strong storms. Goss’ wilt enters the plant through wounds caused by hail, wind, or blowing soil.
+              MANAGEMENT – Fungicide applications will not prevent or control Goss’ wilt. There are no proven treatments for Goss’ wilt once it becomes established, but identification will help you manage that field going forward.</item>
+
+        <item>SYMPTOMS – Initial symptoms are small, water-soaked, chlorotic, circular spots. The tissue in the center of the lesions eventually dies and turns brown. Leaf tissue surrounding eyespot lesions will turn yellow, giving a halo appearance when held up to a light source. Lesions eventually combine
+              and cause large necrotic areas on infected leaves. Eyespot can occur throughout the plant canopy, but it’s most prevalent in the upper canopy, later in the season.
+              FAVOURABLE ENVIRONMENT – Eyespot overwinters on corn residue and is spread by splashing water and wind. Moderate temperatures and high humidity, or prolonged wet conditions favor the development and spread of eyespot.
+              MANAGEMENT – Can be controlled with a timely foliar fungicide application.  </item>
+
+        <item>SYMPTOMS – Southern rust primarily infects the upper leaf surface. Rust pustules are smaller than common rust, more circular, and are more orange in appearance. Pustules don’t develop as fast as common rust and spores don’t rupture from pustules as early. Similar to common rust, southern rust spores darken over time and will create a dark cloud during harvest often turning machine surfaces black.
+              FAVOURABLE ENVIRONMENT – High humidity and temperatures around 80° F favor disease development. Southern rust does not overwinter in the Midwest, but spores are carried up in storms originating in the southern United States.
+              MANAGEMENT – Can be controlled with a timely foliar fungicide application.</item>
     </string-array>
 
 </resources>

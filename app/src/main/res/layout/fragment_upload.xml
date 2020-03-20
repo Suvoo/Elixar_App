@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="#FFFFFF">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -11,13 +10,13 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#B2BAF972">
 
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:id="@+id/relLayout1"
-                android:background="@color/white">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
 
                 <ImageView
@@ -32,12 +31,11 @@
 
 
                 <RelativeLayout
+                    android:id="@+id/relLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_below="@+id/post_image"
-                    android:id="@+id/relLayout2"
-                    android:layout_marginTop="30dp"
-                    android:background="@color/white">
+                    android:layout_marginTop="30dp">
 
 
                     <TextView
@@ -51,23 +49,23 @@
                         android:maxLines="2"
                         android:padding="10dp"
                         android:text="NAME OF PLANT"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
 
                 <RelativeLayout
+                    android:id="@+id/relLayout9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/relLayout2"
-                    android:id="@+id/relLayout9">
+                    android:layout_below="@+id/relLayout2">
 
 
                     <RelativeLayout
+                        android:id="@+id/relLayout3"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:background="@color/white"
-                        android:id="@+id/relLayout3"
                         android:layout_marginTop="10dp"
                         android:padding="10dp">
 
@@ -82,21 +80,20 @@
                             android:hint="DESCRIPTION "
                             android:maxLines="20"
                             android:text="NAME OF DISEASE"
-                            android:textColor="#000000" />
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
 
 
                     </RelativeLayout>
 
 
-
                     <RelativeLayout
+                        android:id="@+id/relLayout4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/relLayout3"
-                        android:background="@color/white"
-                        android:id="@+id/relLayout4"
-                        android:padding="10dp"
-                        android:layout_marginTop="10dp">
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
 
 
                         <TextView
@@ -107,30 +104,31 @@
                             android:background="@null"
                             android:hint="Price"
                             android:text="DESCRIPTION OF DISEASE"
-                            android:textColor="#000000" />
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
 
                     </RelativeLayout>
 
                     <RelativeLayout
+                        android:id="@+id/relLayout5"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_below="@+id/relLayout4"
-                        android:background="@color/white"
-                        android:id="@+id/relLayout5"
-                        android:padding="10dp"
-                        android:layout_marginTop="10dp">
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
 
 
                         <TextView
+                            android:id="@+id/input_country"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/input_country"
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="0dp"
                             android:background="@null"
                             android:hint="Country"
                             android:text="CURE FOR DISEASE"
-                            android:textColor="#000"/>
+                            android:textColor="#000"
+                            android:textStyle="bold" />
 
                     </RelativeLayout>
                 </RelativeLayout>
