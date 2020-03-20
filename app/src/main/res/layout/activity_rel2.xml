@@ -22,7 +22,7 @@
         android:id="@+id/dis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="36dp"
         android:text="TextView"
         android:textColor="#000000"
         android:textSize="40sp"
@@ -36,17 +36,14 @@
         android:id="@+id/des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginTop="32dp"
         android:paddingLeft="5dp"
         android:text="TextView"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dis"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintTop_toBottomOf="@+id/dis" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
