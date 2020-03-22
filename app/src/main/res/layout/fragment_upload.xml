@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#b2baf972">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -11,110 +13,109 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2BAF972">
+            >
 
             <RelativeLayout
-                android:id="@+id/relLayout1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:id="@+id/relLayout1">
 
 
                 <ImageView
                     android:id="@+id/post_image"
                     android:layout_width="match_parent"
-                    android:layout_height="392dp"
-                    android:layout_centerHorizontal="true"
+                    android:layout_height="321dp"
                     android:layout_marginTop="15dp"
                     android:scaleType="centerCrop"
-
-                    android:src="@drawable/ic_image_black_24dp" />
-
+                    app:srcCompat="@drawable/ic_image_black_24dp" />
 
                 <RelativeLayout
-                    android:id="@+id/relLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_below="@+id/post_image"
-                    android:layout_marginTop="30dp">
+                    android:id="@+id/relLayout2"
+                    android:layout_marginTop="30dp"
+                    android:background="#5DA617">
 
 
-                    <TextView
-                        android:id="@+id/input_title"
+                    <Button
+                        android:id="@+id/camera"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="0dp"
-                        android:background="@null"
-                        android:hint="Title"
-                        android:maxLines="2"
+                        android:layout_marginLeft="10dp"
+                        android:background="#0FFFFFFF"
+                        android:hint="Camera"
                         android:padding="10dp"
-                        android:text="NAME OF PLANT"
-                        android:textColor="#000000"
-                        android:textStyle="bold" />
+                        android:text="Take a picture"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp" />
 
                 </RelativeLayout>
 
 
                 <RelativeLayout
-                    android:id="@+id/relLayout9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/relLayout2">
+                    android:layout_below="@+id/relLayout2"
+                    android:id="@+id/relLayout9">
 
 
                     <RelativeLayout
-                        android:id="@+id/relLayout3"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
+                        android:layout_height="60dp"
+                        android:background="#5da617"
+                        android:id="@+id/relLayout3"
                         android:layout_marginTop="10dp"
                         android:padding="10dp">
 
 
-                        <TextView
-                            android:id="@+id/input_description"
+                        <Button
+                            android:id="@+id/gallery"
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="100dp"
                             android:layout_centerVertical="true"
                             android:background="@null"
-                            android:gravity="start"
-                            android:hint="DESCRIPTION "
+                            android:gravity="center"
+                            android:hint="Gallery"
                             android:maxLines="20"
-                            android:text="NAME OF DISEASE"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
+                            android:text="UPLOAD FROM GALLERY"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
 
 
                     </RelativeLayout>
 
 
+
                     <RelativeLayout
-                        android:id="@+id/relLayout4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_below="@+id/relLayout3"
-                        android:layout_marginTop="10dp"
-                        android:padding="10dp">
+                        android:id="@+id/relLayout4"
+                        android:padding="10dp"
+                        android:layout_marginTop="10dp">
 
 
                         <TextView
                             android:id="@+id/input_price"
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
                             android:background="@null"
-                            android:hint="Price"
-                            android:text="DESCRIPTION OF DISEASE"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
+                            android:hint="Name of Plant"
+                            android:text="NAME OF PLANT"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
 
                     </RelativeLayout>
 
                     <RelativeLayout
                         android:id="@+id/relLayout5"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:layout_below="@+id/relLayout4"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="15dp"
                         android:padding="10dp">
 
 
@@ -123,16 +124,64 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_marginLeft="0dp"
+                            android:layout_marginLeft="10dp"
                             android:background="@null"
-                            android:hint="Country"
-                            android:text="CURE FOR DISEASE"
-                            android:textColor="#000"
-                            android:textStyle="bold" />
+                            android:hint="Namr of disease"
+                            android:text="NAME OF DISEASE"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
 
                     </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/relLayout5"
+                        android:id="@+id/relLayout6"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:id="@+id/input_state_province"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@null"
+                            android:hint="Description of disease"
+                            android:text="DESCRIPTION OF DISEASE"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/relLayout6"
+                        android:id="@+id/relLayout7"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:id="@+id/input_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@null"
+                            android:hint="Cure for disease"
+                            android:text="CURE OF DISEASE"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+
                 </RelativeLayout>
+
             </RelativeLayout>
+
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
