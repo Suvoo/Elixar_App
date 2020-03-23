@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GREENapp</string>
+    <string name="app_name">Petal</string>
 
     <string-array name="Disease_names">
         <item>GRAY LEAF SPOT</item>
