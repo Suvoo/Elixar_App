@@ -34,6 +34,8 @@ public class UploadFragment extends Fragment  {
     ImageView mImageView;
     Button gal;
     Button cam;
+    Button iden;
+    Button disea;
 
     private static final int CAM_REQUEST = 1313;
 
@@ -51,11 +53,13 @@ public class UploadFragment extends Fragment  {
         mImageView = view.findViewById(R.id.post_image);
         gal = view.findViewById(R.id.gallery);
         cam = view.findViewById(R.id.camera);
+        iden = view.findViewById(R.id.leafClass);
+        disea = view.findViewById(R.id.disidentify);
 
         gal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                k=0;
+                k=2;
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
 
 
@@ -105,6 +109,32 @@ public class UploadFragment extends Fragment  {
             }
 
 
+        });
+
+        iden.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(k==2||k==1){
+                Intent leafintent = new Intent(getActivity(),leafidentification.class);
+                startActivity(leafintent);
+                }
+                else{
+                    Toast.makeText(getActivity(),"Upload Picture First",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        disea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(k==2||k==1){
+                Intent disintent = new Intent(getActivity(),disdetect.class);
+                startActivity(disintent);
+            }
+            else{
+                    Toast.makeText(getActivity(),"Upload Picture First",Toast.LENGTH_SHORT).show();
+                }
+            }
         });
         return view;
     }

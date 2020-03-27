@@ -15,9 +15,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".rel2"
-            android:parentActivityName=".second"
+        <activity android:name=".disdetect"></activity>
+        <activity android:name=".leafidentification" />
+        <activity
+            android:name=".rel2"
             android:label="Details"
+            android:parentActivityName=".second"
             tools:targetApi="jelly_bean" />
         <activity android:name=".second" />
         <activity android:name=".splash">
