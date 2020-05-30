@@ -38,7 +38,7 @@
                     android:layout_height="50dp"
                     android:layout_below="@+id/ts0"
                     android:id="@+id/relLayout2"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     >
 
 
@@ -46,7 +46,7 @@
                         android:id="@+id/ts1"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="STATUS :     HEALTHY"
+                        android:text="STATUS :    UNHEALTHY"
                         android:gravity=""
                         android:layout_marginLeft="15dp"
                         android:textStyle="bold"
@@ -67,7 +67,7 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="60dp"
                         android:id="@+id/relLayout3"
                         >
 
@@ -75,8 +75,8 @@
                         <TextView
                             android:id="@+id/ts2"
                             android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:text=" DESCRIPTON  :    Ficus benghalensis, commonly known as the banyan, banyan fig and Indian banyan, is a tree native to the Indian Subcontinent. Found in almost all the parts of India, Banyan tree is the National tree of India. It is grown throughout the sub- Himalayan region and in the deciduous forests."
+                            android:layout_height="60dp"
+                            android:text="PLANT DISEASE :  Tomato Mosaic Virus"
                             android:gravity=""
                             android:layout_marginLeft="15dp"
                             android:textStyle="bold"
@@ -86,7 +86,32 @@
 
 
                     </RelativeLayout>
-                </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="80dp"
+                        android:id="@+id/relLayout4"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/ts3"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:text="REMEDIES : * Use certified disease-free seed or treat your own seed. \n* Soak seeds in a 10% solution of trisodium phosphate (Na3PO4) for at least 15 minutes.\n * Or heat dry seeds to 158 °F and hold them at that temperature for two to four days.\n * Inspect transplants prior to purchase. Choose only transplants showing no clear symptoms. \n * Avoid planting in fields where tomato root debris is present, as the virus can survive long-term in roots."
+                            android:gravity=""
+                            android:layout_marginLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            />
+                    </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+
             </RelativeLayout>
         </RelativeLayout>
     </ScrollView>

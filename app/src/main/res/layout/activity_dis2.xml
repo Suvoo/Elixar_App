@@ -38,7 +38,7 @@
                     android:layout_height="50dp"
                     android:layout_below="@+id/ts0"
                     android:id="@+id/relLayout2"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     >
 
 
@@ -46,7 +46,7 @@
                         android:id="@+id/ts1"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="STATUS :     HEALTHY"
+                        android:text="STATUS :    UNHEALTHY"
                         android:gravity=""
                         android:layout_marginLeft="15dp"
                         android:textStyle="bold"
@@ -67,7 +67,7 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="60dp"
                         android:id="@+id/relLayout3"
                         >
 
@@ -75,8 +75,8 @@
                         <TextView
                             android:id="@+id/ts2"
                             android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:text=" DESCRIPTON  :    Ficus benghalensis, commonly known as the banyan, banyan fig and Indian banyan, is a tree native to the Indian Subcontinent. Found in almost all the parts of India, Banyan tree is the National tree of India. It is grown throughout the sub- Himalayan region and in the deciduous forests."
+                            android:layout_height="60dp"
+                            android:text="PLANT DISEASE :  Strawberry Leaf scorch"
                             android:gravity=""
                             android:layout_marginLeft="15dp"
                             android:textStyle="bold"
@@ -86,7 +86,32 @@
 
 
                     </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="80dp"
+                        android:id="@+id/relLayout4"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/ts3"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:text="REMEDIES : * Treat leaf scorch by letting your plants dry out. The best way to treat this disease is to alter watering practices and allow for dryer conditions.\n* If that isn’t possible, you can treat your strawberries with organic fungicides like Captan 50 WP and Copper compounds"
+                            android:gravity=""
+                            android:layout_marginLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            />
+                    </RelativeLayout>
+
                 </RelativeLayout>
+
+
+
             </RelativeLayout>
         </RelativeLayout>
     </ScrollView>
