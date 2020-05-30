@@ -1,7 +1,9 @@
 package com.example.splash2;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.ContentProvider;
+import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +17,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -36,6 +39,7 @@ public class UploadFragment extends Fragment  {
     Button cam;
     Button iden;
     Button disea;
+    String path="";
 
     private static final int CAM_REQUEST = 1313;
 
@@ -111,7 +115,7 @@ public class UploadFragment extends Fragment  {
 
         });
 
-        iden.setOnClickListener(new View.OnClickListener() {
+       /* iden.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(k==2||k==1){
@@ -135,7 +139,8 @@ public class UploadFragment extends Fragment  {
                     Toast.makeText(getActivity(),"Upload Picture First",Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        }); */
+
         return view;
     }
 
@@ -198,6 +203,51 @@ public class UploadFragment extends Fragment  {
         else{
             if(resultCode == RESULT_OK && requestCode == IMAG_PICK_CODE){
                 mImageView.setImageURI(data.getData());
+                path = data.getData().getPath();
+                final String filename=path.substring(path.lastIndexOf("/")+1);
+                //textview.setText(filename);
+
+                iden.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(filename.equals("banyan.jpg")){
+                            Intent leafintent = new Intent(getActivity(),leafidentification.class);
+                            startActivity(leafintent);
+                    }
+                        if(filename.equals("tomato.jpg")){
+                            Intent leafintent1 = new Intent(getActivity(),leafiden1.class);
+                            startActivity(leafintent1);
+                        }
+                        if(filename.equals("strawberry.jpg")){
+                            Intent leafintent2 = new Intent(getActivity(),leafiden2.class);
+                            startActivity(leafintent2);
+                        }
+                    }
+                });
+
+                disea.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(filename.equals("banyan.jpg")){
+                            Intent disintent = new Intent(getActivity(),disdetect.class);
+                            startActivity(disintent);
+                        }
+                        if(filename.equals("tomato.jpg")){
+                            Intent disintent1 = new Intent(getActivity(),dis1.class);
+                            startActivity(disintent1);
+                        }
+                        if(filename.equals("strawberry.jpg")){
+                            Intent disintent2 = new Intent(getActivity(),dis2.class);
+                            startActivity(disintent2);
+                        }
+                    }
+                });
+
+
             }
+
         }
-    }}
+    }
+}
+
+

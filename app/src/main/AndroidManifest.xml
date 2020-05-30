@@ -15,7 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".disdetect"></activity>
+        <activity android:name=".dis2"></activity>
+        <activity android:name=".dis1" />
+        <activity android:name=".leafiden2" />
+        <activity android:name=".leafiden1" />
+        <activity android:name=".disdetect" />
         <activity android:name=".leafidentification" />
         <activity
             android:name=".rel2"

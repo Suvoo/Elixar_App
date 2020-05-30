@@ -43,9 +43,9 @@ public class second extends AppCompatActivity {
                 case R.id.nav_upload:
                     selectedFragment = new UploadFragment();
                     break;
-                case R.id.nav_timeline:
-                    selectedFragment = new TimelineFragment();
-                    break;
+                //case R.id.nav_timeline:
+                    //selectedFragment = new TimelineFragment();
+                    //break;
                 case R.id.nav_info:
                     selectedFragment = new InfoFragment();
                     break;

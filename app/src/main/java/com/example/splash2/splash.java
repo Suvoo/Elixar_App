@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class splash extends AppCompatActivity {
 
-     private TextView tv;
+    private TextView tv;
     private ImageView iv;
 
     @Override
