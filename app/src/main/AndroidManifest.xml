@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dis2"></activity>
+        <activity android:name=".dis3"></activity>
+        <activity android:name=".leafiden3" />
+        <activity android:name=".dis2" />
         <activity android:name=".dis1" />
         <activity android:name=".leafiden2" />
         <activity android:name=".leafiden1" />

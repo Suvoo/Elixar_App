@@ -222,6 +222,10 @@ public class UploadFragment extends Fragment  {
                             Intent leafintent2 = new Intent(getActivity(),leafiden2.class);
                             startActivity(leafintent2);
                         }
+                        if(filename.equals("dumbcane.jpg")){
+                            Intent leafintent3 = new Intent(getActivity(),leafiden3.class);
+                            startActivity(leafintent3);
+                        }
                     }
                 });
 
@@ -239,6 +243,10 @@ public class UploadFragment extends Fragment  {
                         if(filename.equals("strawberry.jpg")){
                             Intent disintent2 = new Intent(getActivity(),dis2.class);
                             startActivity(disintent2);
+                        }
+                        if(filename.equals("dumbcane.jpg")){
+                            Intent disintent3 = new Intent(getActivity(),dis3.class);
+                            startActivity(disintent3);
                         }
                     }
                 });
