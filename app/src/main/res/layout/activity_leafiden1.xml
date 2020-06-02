@@ -25,7 +25,7 @@
                     android:id="@+id/ts0"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="50dp"
                     android:text="LEAF CLASSIFICATION"
                     android:gravity="center"
                     android:textStyle="bold"
@@ -35,10 +35,10 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="50dp"
                     android:layout_below="@+id/ts0"
                     android:id="@+id/relLayout2"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="60dp"
                     >
 
 
@@ -46,7 +46,7 @@
                         android:id="@+id/ts1"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="INDIAN NAME  :     Tomato "
+                        android:text="SCIENTIFIC NAME:    Lycopersicon esculentum"
                         android:gravity=""
                         android:layout_marginLeft="15dp"
                         android:textStyle="bold"
@@ -67,7 +67,7 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="60dp"
                         android:id="@+id/relLayout3"
                         >
 
@@ -75,8 +75,8 @@
                         <TextView
                             android:id="@+id/ts2"
                             android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:text="SCIENTIFIC NAME  :  Lycopersicon esculentum"
+                            android:layout_height="60dp"
+                            android:text="COMMON NAME :     Tomato"
                             android:gravity=""
                             android:layout_marginLeft="15dp"
                             android:textStyle="bold"
@@ -86,7 +86,32 @@
 
 
                     </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="195dp"
+                        android:layout_marginTop="80dp"
+                        android:id="@+id/relLayout4"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/ts3"
+                            android:layout_width="match_parent"
+                            android:layout_height="195dp"
+                            android:text=" DESCRIPTION  :    Tomato, along with pepper, potato, and eggplant, belong to the Solanaceae family of flowering plants. This family of plants are also known as nightshades. Nightshades include more than 3000 species including many that are economically important. Even though there are more than 7000 varieties of tomatoes, they all represent only one species of tomato that is cultivated, S. lycopersicum"
+                            android:gravity=""
+                            android:layout_marginLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            />
+                    </RelativeLayout>
+
                 </RelativeLayout>
+
+
+
             </RelativeLayout>
         </RelativeLayout>
     </ScrollView>

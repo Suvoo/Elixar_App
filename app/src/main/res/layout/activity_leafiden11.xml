@@ -46,7 +46,7 @@
                         android:id="@+id/ts1"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="SCIENTIFIC NAME :  Fragaria × ananassa"
+                        android:text="SCIENTIFIC NAME :  Cucurbita"
                         android:gravity=""
                         android:layout_marginLeft="15dp"
                         android:textStyle="bold"
@@ -76,7 +76,7 @@
                             android:id="@+id/ts2"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:text="COMMON NAME :     Strawberry"
+                            android:text="COMMON NAME :     Squash"
                             android:gravity=""
                             android:layout_marginLeft="15dp"
                             android:textStyle="bold"
@@ -89,7 +89,7 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="220dp"
+                        android:layout_height="180dp"
                         android:layout_marginTop="80dp"
                         android:id="@+id/relLayout4"
                         >
@@ -98,8 +98,8 @@
                         <TextView
                             android:id="@+id/ts3"
                             android:layout_width="match_parent"
-                            android:layout_height="220dp"
-                            android:text=" DESCRIPTION  :    Strawberry, (genus Fragaria), genus of more than 20 species of flowering plants in the rose family (Rosaceae) and their edible fruit. Strawberries are native to the temperate regions of the Northern Hemisphere, and cultivated varieties are widely grown throughout the world. The fruits are rich in vitamin C and are commonly eaten fresh as a dessert fruit, are used as a pastry or pie filling, and may be preserved in many ways."
+                            android:layout_height="180dp"
+                            android:text=" DESCRIPTION  :    Cucurbita is a genus of herbaceous vines in the gourd family, Cucurbitaceae native to the Andes and Mesoamerica. Five species are grown worldwide for their edible fruit, variously known as squash, pumpkin, or gourd, depending on species, variety, and local parlance, and for their seeds."
                             android:gravity=""
                             android:layout_marginLeft="15dp"
                             android:textStyle="bold"

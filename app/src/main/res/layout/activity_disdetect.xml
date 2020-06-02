@@ -76,7 +76,7 @@
                         android:id="@+id/ts2"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
-                        android:text=" DESCRIPTON  :    Ficus benghalensis, commonly known as the banyan, banyan fig and Indian banyan, is a tree native to the Indian Subcontinent. Found in almost all the parts of India, Banyan tree is the National tree of India. It is grown throughout the sub- Himalayan region and in the deciduous forests."
+                        android:text=""
                         android:gravity=""
                         android:layout_marginLeft="15dp"
                         android:textStyle="bold"

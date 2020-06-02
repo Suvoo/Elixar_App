@@ -226,6 +226,51 @@ public class UploadFragment extends Fragment  {
                             Intent leafintent3 = new Intent(getActivity(),leafiden3.class);
                             startActivity(leafintent3);
                         }
+                        if(filename.equals("mulberry.jpg")){
+                            Intent leafintent4 = new Intent(getActivity(),leafiden4.class);
+                            startActivity(leafintent4);
+                        }
+                        if(filename.equals("privet.jpg")){
+                            Intent leafintent5 = new Intent(getActivity(),leafiden5.class);
+                            startActivity(leafintent5);
+                        }
+                        if(filename.equals("blackgrape.jpg")){
+                            Intent leafintent6 = new Intent(getActivity(),leafiden6.class);
+                            startActivity(leafintent6);
+                        }
+                        if(filename.equals("boxwood.jpg")){
+                            Intent leafintent7 = new Intent(getActivity(),leafiden7.class);
+                            startActivity(leafintent7);
+                        }
+                        if(filename.equals("apple.jpg")){
+                            Intent leafintent8 = new Intent(getActivity(),leafiden8.class);
+                            startActivity(leafintent8);
+                        }
+                        if(filename.equals("maple.jpg")){
+                            Intent leafintent9 = new Intent(getActivity(),leafiden9.class);
+                            startActivity(leafintent9);
+                        }
+                        if(filename.equals("nammu.jpg")){
+                            Intent leafintent10 = new Intent(getActivity(),leafiden10.class);
+                            startActivity(leafintent10);
+                        }
+                        if(filename.equals("squash.jpg")){
+                            Intent leafintent11 = new Intent(getActivity(),leafiden11.class);
+                            startActivity(leafintent11);
+                        }
+                        if(filename.equals("cherry.jpg")){
+                            Intent leafintent12 = new Intent(getActivity(),leafiden12.class);
+                            startActivity(leafintent12);
+                        }
+                        if(filename.equals("potato.jpg")){
+                            Intent leafintent13 = new Intent(getActivity(),leafiden13.class);
+                            startActivity(leafintent13);
+                        }
+                        if(filename.equals("avacado.jpg")){
+                            Intent leafintent14 = new Intent(getActivity(),leafiden14.class);
+                            startActivity(leafintent14);
+                        }
+
                     }
                 });
 
@@ -247,6 +292,50 @@ public class UploadFragment extends Fragment  {
                         if(filename.equals("dumbcane.jpg")){
                             Intent disintent3 = new Intent(getActivity(),dis3.class);
                             startActivity(disintent3);
+                        }
+                        if(filename.equals("mulberry.jpg")){
+                            Intent disintent4 = new Intent(getActivity(),dis4.class);
+                            startActivity(disintent4);
+                        }
+                        if(filename.equals("privet.jpg")){
+                            Intent disintent5 = new Intent(getActivity(),dis5.class);
+                            startActivity(disintent5);
+                        }
+                        if(filename.equals("blackgrape.jpg")){
+                            Intent disintent6 = new Intent(getActivity(),dis6.class);
+                            startActivity(disintent6);
+                        }
+                        if(filename.equals("boxwood.jpg")){
+                            Intent disintent7 = new Intent(getActivity(),dis7.class);
+                            startActivity(disintent7);
+                        }
+                        if(filename.equals("apple.jpg")){
+                            Intent disintent8 = new Intent(getActivity(),dis8.class);
+                            startActivity(disintent8);
+                        }
+                        if(filename.equals("maple.jpg")){
+                            Intent disintent9 = new Intent(getActivity(),dis9.class);
+                            startActivity(disintent9);
+                        }
+                        if(filename.equals("nammu.jpg")){
+                            Intent disintent10 = new Intent(getActivity(),dis10.class);
+                            startActivity(disintent10);
+                        }
+                        if(filename.equals("squash.jpg")){
+                            Intent disintent11 = new Intent(getActivity(),dis11.class);
+                            startActivity(disintent11);
+                        }
+                        if(filename.equals("cherry.jpg")){
+                            Intent disintent12 = new Intent(getActivity(),dis12.class);
+                            startActivity(disintent12);
+                        }
+                        if(filename.equals("potato.jpg")){
+                            Intent disintent13 = new Intent(getActivity(),dis13.class);
+                            startActivity(disintent13);
+                        }
+                        if(filename.equals("avacado.jpg")){
+                            Intent disintent14 = new Intent(getActivity(),dis14.class);
+                            startActivity(disintent14);
                         }
                     }
                 });
